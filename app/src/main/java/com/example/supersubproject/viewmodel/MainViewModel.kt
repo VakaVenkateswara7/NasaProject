@@ -13,6 +13,6 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
 
     fun reteriveNasaInfo(): LiveData<Resource<List<NasaResponseItem>>> = nasaRepository.loadNasaData()
 
-    fun deleteDb() = nasaRepository.deleteDb()
+   // fun deleteDb() = nasaRepository.deleteDb()
 
 }

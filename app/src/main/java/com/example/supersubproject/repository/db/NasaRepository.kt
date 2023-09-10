@@ -80,7 +80,7 @@ class NasaRepository(application: Application) {
     }
 
     fun deleteDb(){
-        dao?.deleteAll()
+       // dao?.deleteAll()
     }
 
 
